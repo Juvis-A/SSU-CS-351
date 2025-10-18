@@ -26,3 +26,6 @@ Alloca is stack based, while malloc, new and list are all heap based.  For all i
 ## 8. As the size of data in a Node increases, does the significance of allocating the node increase or decrease?
 I believe that as the size of data in a node increases so does the  significance of allocating.
 
+
+![Test 1](tests1.png)
+![Test 2](tests2.png)
