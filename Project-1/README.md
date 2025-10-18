@@ -15,10 +15,8 @@ Yes there was a trend. As the number of nodes  increased the execution time, the
 ## 5. Consider heap breaks, what's noticeable? Does increasing the stack size affect the heap? Speculate on any similarities and differences in programs?
 What I noticed is that the alloca program had the least amount of brk calls and the other 3 were all fairly similar with my test showing that  list and new were about the same  and malloc having slightly less calls. From what I can find on this I see that increasing the stack size lets alloca handle more nodes but doesn't change the heap behavior. As where the other three are heap based which shows why they have the most calls.
 
-## 6. Considering either the malloc.cpp or alloca.cpp versions of the program, generate a diagram showing two Nodes. Include in the diagram
-the relationship of the head, tail, and Node next pointers.
-show the size (in bytes) and structure of a Node that allocated six bytes of data
-include the bytes pointer, and indicate using an arrow which byte in the allocated memory it points to.
+## 6. Considering either the malloc.cpp or alloca.cpp versions of the program, generate a diagram showing two Nodes. Include in the diagram the relationship of the head, tail, and Node next pointers. show the size (in bytes) and structure of a Node that allocated six bytes of data. include the bytes pointer, and indicate using an arrow which byte in the allocated memory it points to.
+![Test 1](diagram2.png)
 
 ## 7. There's an overhead to allocating memory, initializing it, and eventually processing (in our case, hashing it). For each program, were any of these tasks the same? Which one(s) were different? 
 Alloca is stack based, while malloc, new and list are all heap based.  For all i think initialization and processing are the same and the difference is the allocation method and its overhead.
