@@ -10,4 +10,4 @@
 *(this image shows how the performance scales as the number of threads increased for the mean computation)
 
 ## Raw Timing Data
-![mean_Timing](mean_speedup (2).png)
+![mean Timing](mean_timing.png)
