@@ -26,7 +26,7 @@ a 10 sided polygon made using gl.TRIANGLE_FAN and a uniforn N variable to genera
 Alternates the vertex radius using `mod(gl_VertexID, 2)` to create a star shape.  
 
 ### 4. Rotating Star  
-[rotating-star.html](rotating_star.html)  
+[rotating_star.html](rotating_star.html)  
 uses time based variable "t" to rotate the star by using "t" into vertex angle
 
 
