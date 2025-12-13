@@ -1,6 +1,6 @@
 # SSU-CS-351
 computer architecture class, Sonoma State
 * Project 1
-* Project 2
-* Project 3
-* Project 4
+* Project 2 (Threading and multi-core applications)
+* Project 3 (WebGL, vertex & fragment shaders)
+* Project 4 (Cuda implementation)
